@@ -35,7 +35,7 @@ var ErrInvalidPath = errors.New("zk: invalid path")
 var DefaultLogger Logger = defaultLogger{}
 
 const (
-	bufferSize      = 1536 * 1024
+	bufferSize      = 15360 * 1024
 	eventChanSize   = 6
 	sendChanSize    = 16
 	protectedPrefix = "_c_"
